@@ -1,0 +1,12 @@
+.container {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+}
+.item {
+    display: none;
+}
+
+.container:hover .item {
+    display: block;
+}
