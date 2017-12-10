@@ -8,8 +8,6 @@ class Result extends Component {
     filderData () {
         let cities = this.props.data;
         let selectedCity = this.props.city;
-        console.log(cities);
-        console.log(selectedCity);
         let result = '';
         for( let i = 0; i < cities.length; i++) {
             if(cities[i].city === selectedCity) {
@@ -21,7 +19,6 @@ class Result extends Component {
 
     render() {
         const result = this.filderData();
-        console.log(result);
         return <div>{result}</div>
     }
 }
